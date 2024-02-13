@@ -67,4 +67,4 @@ and Add, Delete, or View patients.
 
 # Backend
 
-For backend setup and instructions, please refer to the README in the [backend repository](https://gitlab.ce.catalyte.io/training/cycleworkinggroups/nationwide/associates/christopher-davis/final-api).
+For backend setup and instructions, please refer to the README in the [backend repository](https://github.com/ThidgesB/Catalyte-Final-API).
