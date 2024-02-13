@@ -1,0 +1,20 @@
+.footer {
+    background-image: linear-gradient(green, teal);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer p::before {
+    content: "\00A9 "; 
+}

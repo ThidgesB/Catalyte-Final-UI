@@ -1,0 +1,33 @@
+.patient-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    width: 50%;
+    margin-left: 25rem;
+    margin-top: 75px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.patient-details p {
+    margin: 0;
+    padding: 10px;
+}
+
+.add-btn {
+  cursor: pointer;
+  background-color: #0077b6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  align-self: center;
+  transition: background-color 0.2s;
+  margin-bottom: 10px;
+}
+
+.add-btn:hover {
+  background-color: lightgreen;
+}

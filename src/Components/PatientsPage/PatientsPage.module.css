@@ -1,0 +1,97 @@
+.home-msg {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 70px);
+  align-items: center;
+}
+
+.patient-box {
+  border: solid 3px black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  height: 17rem;
+  padding: 10px;
+  width: 25rem;
+}
+
+.patients-list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.patients-header {
+  margin-top: 5rem;
+}
+
+.error-msg {
+  color: red;
+}
+
+.error-cont {
+  text-align: center;
+  margin-top: 2rem;
+  color: red;
+  font-size: 1.2rem;
+}
+
+.view-btn{
+  cursor: pointer;
+  background-color: #0077b6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+  width: 5rem;
+  margin: 2px;
+}
+
+.view-btn:hover {
+  background-color: lightblue;
+}
+
+.del-btn {
+  cursor: pointer;
+  background-color: #0077b6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+  width: 5rem;
+  margin: 2px;
+}
+
+.del-btn:hover {
+  background-color: red;
+}
+
+.add-btn {
+  cursor: pointer;
+  background-color: #0077b6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  align-self: center;
+  transition: background-color 0.2s;
+  margin-bottom: 10px;
+}
+
+.add-btn:hover {
+  background-color: lightgreen;
+}
